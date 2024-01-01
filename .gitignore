@@ -36,3 +36,6 @@ venv3/
 *.pyc
 *.pyo
 __pycache__/
+
+# Node modules
+node_modules/
