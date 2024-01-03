@@ -124,11 +124,11 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# Media Settings
-MEDIA_ROOT = BASE_DIR / "media"
-MEDIA_URL = "/media/"
-
-
 COMPRESS_ROOT = BASE_DIR / "static"
 COMPRESS_ENABLED = True
 STATICFILES_FINDERS = ("compressor.finders.CompressorFinder",)
+
+
+# Media Settings
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"
